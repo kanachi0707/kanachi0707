@@ -40,7 +40,15 @@ function Invoke-JsonScript {
     throw "Script returned no output: $ScriptPath"
   }
 
-  return $outputText | ConvertFrom-Json
+  # Native commands may add transport messages around the script's JSON output.
+  $jsonStart = $outputText.IndexOf("{")
+  $jsonEnd = $outputText.LastIndexOf("}")
+  if ($jsonStart -lt 0 -or $jsonEnd -lt $jsonStart) {
+    throw "Script returned invalid JSON: $ScriptPath`n$outputText"
+  }
+
+  $jsonText = $outputText.Substring($jsonStart, $jsonEnd - $jsonStart + 1)
+  return $jsonText | ConvertFrom-Json
 }
 
 $updateScriptPath = Join-Path $PSScriptRoot "update-instagram-json.ps1"
