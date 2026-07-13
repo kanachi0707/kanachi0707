@@ -68,7 +68,7 @@ if ($branch -ne "main") {
   throw "Instagram auto-publish must run on main. Current branch: $branch"
 }
 
-$statusResult = Invoke-Git -Arguments @("status", "--porcelain", "--") + $relativeFiles
+$statusResult = Invoke-Git -Arguments (@("status", "--porcelain", "--") + $relativeFiles)
 $hasTargetChanges = @($statusResult.Output | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }).Count -gt 0
 $changeStatus = "no_changes"
 $commitHash = ""
@@ -87,7 +87,7 @@ if ($hasTargetChanges) {
   }
 
   if ($contentChanged) {
-    Invoke-Git -Arguments @("add", "--") + $relativeFiles | Out-Null
+    Invoke-Git -Arguments (@("add", "--") + $relativeFiles) | Out-Null
 
     $commitResult = Invoke-Git -Arguments @("commit", "-m", $CommitMessage)
     foreach ($line in $commitResult.Output) {
