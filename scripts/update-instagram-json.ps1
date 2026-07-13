@@ -26,13 +26,27 @@ function Get-InstagramProfileData {
   param([string]$Username)
 
   $apiUrl = "https://www.instagram.com/api/v1/users/web_profile_info/?username=$Username"
-  $raw = curl.exe -sS -L $apiUrl -H "x-ig-app-id: 936619743392459" -H "User-Agent: Mozilla/5.0"
+  $tempPath = [System.IO.Path]::GetTempFileName()
 
-  if ([string]::IsNullOrWhiteSpace($raw)) {
-    throw "Instagram profile endpoint returned empty response."
+  try {
+    $curlOutput = & curl.exe -sS -f -L $apiUrl -H "x-ig-app-id: 936619743392459" -H "User-Agent: Mozilla/5.0" --output $tempPath 2>&1
+    if ($LASTEXITCODE -ne 0) {
+      throw "Instagram profile request failed: $($curlOutput -join ' ')"
+    }
+
+    # Reading curl output as UTF-8 from disk avoids Windows PowerShell's console decoding.
+    $utf8 = New-Object System.Text.UTF8Encoding($false, $true)
+    $raw = [System.IO.File]::ReadAllText($tempPath, $utf8)
+
+    if ([string]::IsNullOrWhiteSpace($raw)) {
+      throw "Instagram profile endpoint returned empty response."
+    }
+
+    return $raw | ConvertFrom-Json
   }
-
-  return $raw | ConvertFrom-Json
+  finally {
+    Remove-Item -LiteralPath $tempPath -Force -ErrorAction SilentlyContinue
+  }
 }
 
 function Get-LatestInstagramPost {
@@ -105,6 +119,13 @@ try {
   }
 }
 catch {
+  $errorMessage = $_.Exception.Message
+  $retryable = $false
+
+  if ($errorMessage -match "empty response|timed out|timeout|connection|connect|temporar|429|5\d\d") {
+    $retryable = $true
+  }
+
   $payload = [ordered]@{
     url = if ($existingData -and $existingData.url) { Normalize-InstagramUrl([string]$existingData.url) } else { Normalize-InstagramUrl($FallbackUrl) }
     caption = if ($existingData -and $existingData.caption) { [string]$existingData.caption } else { "" }
@@ -112,7 +133,8 @@ catch {
     fallbackUrl = Normalize-InstagramUrl($FallbackUrl)
     source = "fallback"
     status = "fallback"
-    error = $_.Exception.Message
+    error = $errorMessage
+    retryable = $retryable
   }
 }
 
