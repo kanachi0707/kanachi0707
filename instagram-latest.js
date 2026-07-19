@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/Da6xMDwhEcf/",
-    "caption":  "#GoodMorningKanachi\n\nどんな言葉を言われても\n受け取らなければ相手へ返り\n心が乱されることはない\n\nWhatever words come your way, \nif you do not receive them, \nthey return to the speaker, \nand your heart remains at peace.",
-    "updatedAt":  "2026-07-18T17:18:12+09:00",
+    "url":  "https://www.instagram.com/p/Da8-VwHhYUA/",
+    "caption":  "#GoodMorningKanachi\n\n永遠を手に入れることはできない\n終わりがあるから、今に全力を尽くせる\n\nWe cannot hold on to eternity.\nIt is because life has an end\nthat we can give our all to today.",
+    "updatedAt":  "2026-07-19T12:00:03+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-07-18T02:57:01+00:00"
+    "postTakenAt":  "2026-07-18T23:30:28+00:00"
 };
