@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DbUgaUAhxbA/",
-    "caption":  "#GoodMorningKanachi \n\n幸せは、配るほど増える \nでも配る人を失ってはいけない\n\nHappiness grows when you share it. \nBut don’t lose the one who shares it.",
-    "updatedAt":  "2026-07-28T12:00:05+09:00",
+    "url":  "https://www.instagram.com/p/DbW5---huLn/",
+    "caption":  "#GoodMorningKanachi \n\n何も出来ない時間を\n祈る時間に変えよう\n\nTurn moments of helplessness \ninto moments of prayer.",
+    "updatedAt":  "2026-07-29T12:00:03+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-07-28T02:51:00+00:00"
+    "postTakenAt":  "2026-07-29T01:12:38+00:00"
 };
