@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DbW5---huLn/",
-    "caption":  "#GoodMorningKanachi \n\n何も出来ない時間を\n祈る時間に変えよう\n\nTurn moments of helplessness \ninto moments of prayer.",
-    "updatedAt":  "2026-07-29T12:00:03+09:00",
+    "url":  "https://www.instagram.com/p/DbZh53VhXJn/",
+    "caption":  "#GoodMorningKanachi \n\n凡事徹底\n未来は、今日の習慣から生まれる。\n\nThe future is built by today’s habits.",
+    "updatedAt":  "2026-07-30T12:00:04+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-07-29T01:12:38+00:00"
+    "postTakenAt":  "2026-07-30T01:40:04+00:00"
 };
