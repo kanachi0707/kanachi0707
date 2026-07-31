@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DbZh53VhXJn/",
-    "caption":  "#GoodMorningKanachi \n\n凡事徹底\n未来は、今日の習慣から生まれる。\n\nThe future is built by today’s habits.",
-    "updatedAt":  "2026-07-30T12:00:04+09:00",
+    "url":  "https://www.instagram.com/p/DbcN3YuBOxO/",
+    "caption":  "#GoodMorningKanachi \n\n心を受け止めてくれる場所を大切にしよう\nそこからまた歩き出せる\n\nCherish the place that holds your heart. \nThat’s where new journeys begin.",
+    "updatedAt":  "2026-07-31T12:20:49+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-07-30T01:40:04+00:00"
+    "postTakenAt":  "2026-07-31T02:42:22+00:00"
 };
