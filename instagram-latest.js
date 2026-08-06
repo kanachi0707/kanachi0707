@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/Dbe3og1Bzbb/",
-    "caption":  "#GoodMorningKanachi\n\n正解を選ぶのではなく、\n選んだ道を、より良い未来にする努力をしよう。\n\nDon’t search for the right path.\nMake the path you choose the right one.",
-    "updatedAt":  "2026-08-01T14:17:02+09:00",
+    "url":  "https://www.instagram.com/p/DbrgmLLS_uM/",
+    "caption":  "#GoodMorningKanachi \n\n這い上がった数だけ \n強くなる\n\nEvery time you rise, \nyou grow stronger.",
+    "updatedAt":  "2026-08-06T12:00:05+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-08-01T03:26:06+00:00"
+    "postTakenAt":  "2026-08-06T01:15:49+00:00"
 };
