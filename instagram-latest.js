@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/Db4UBY4Btp6/",
-    "caption":  "#GoodMorningKanachi \n\n見栄で自分を飾るより、 \n何を成したかで自分を語ろう。\n\nDon’t dress yourself up with appearances. \nLet what you’ve achieved speak for you.",
-    "updatedAt":  "2026-08-11T14:34:57+09:00",
+    "url":  "https://www.instagram.com/p/Db69vyFhVRl/",
+    "caption":  "#GoodMorningKanachi \n\n困難が起きない物語なんて\n読みたくも体験したくもない\n\nA story without hardship is one I’d neither read nor live.",
+    "updatedAt":  "2026-08-12T12:00:04+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-08-11T00:34:56+00:00"
+    "postTakenAt":  "2026-08-12T01:18:00+00:00"
 };
