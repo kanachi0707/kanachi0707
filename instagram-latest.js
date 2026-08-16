@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DcClCEdhQOZ/",
-    "caption":  "#GoodMorningKanachi \n\n誰かに認められるためじゃない \n自分を信じるために努力を積み重ねよう\n\nKeep putting in the effort. \nIt will give you the strength to believe in yourself.",
-    "updatedAt":  "2026-08-15T13:09:33+09:00",
+    "url":  "https://www.instagram.com/p/DcFSOe3B0u5/",
+    "caption":  "#GoodMorningKanachi\n\n不完全だから、手放すのではない。\n不完全だからこそ、磨き上げるんだ。\n\nWe don’t let go because it’s imperfect.\nWe keep refining it precisely because it is.",
+    "updatedAt":  "2026-08-16T12:00:04+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-08-15T00:16:01+00:00"
+    "postTakenAt":  "2026-08-16T01:29:30+00:00"
 };
