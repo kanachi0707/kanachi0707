@@ -1,9 +1,9 @@
 ﻿window.__INSTAGRAM_LATEST_POST__ = {
-    "url":  "https://www.instagram.com/p/DcFSOe3B0u5/",
-    "caption":  "#GoodMorningKanachi\n\n不完全だから、手放すのではない。\n不完全だからこそ、磨き上げるんだ。\n\nWe don’t let go because it’s imperfect.\nWe keep refining it precisely because it is.",
-    "updatedAt":  "2026-08-16T12:00:04+09:00",
+    "url":  "https://www.instagram.com/p/DcH1lu1BHp0/",
+    "caption":  "#GoodMorningKanachi \n\n今日まで歩いた時間にも、意味がある。 \n今日から歩く時間にも、意味がある。\n\nThere is meaning in the path you’ve walked so far. \nAnd there is meaning in the path you choose from here.",
+    "updatedAt":  "2026-08-17T12:00:05+09:00",
     "fallbackUrl":  "https://www.instagram.com/p/DVM3FVxErTp/",
     "source":  "instagram-web-profile-api",
     "status":  "ok",
-    "postTakenAt":  "2026-08-16T01:29:30+00:00"
+    "postTakenAt":  "2026-08-17T01:16:53+00:00"
 };
